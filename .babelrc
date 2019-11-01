@@ -1,0 +1,42 @@
+{
+  "presets": [
+    [
+      "babel-preset-gatsby",
+      {
+        "targets": {
+          "browsers": ["safari 7"]
+        },
+        "useBuiltIns": "entry",
+        "modules": false
+      }
+    ]
+  ],
+  "plugins": [
+    "babel-plugin-styled-components",
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "legacy": true
+      }
+    ],
+    [
+      "transform-es2015-for-of",
+      {
+        "loose": true
+      }
+    ],
+    [
+      "@babel/plugin-proposal-class-properties",
+      {
+        "loose": true
+      }
+    ],
+    "@babel/transform-async-to-generator",
+    "minify-mangle-names",
+    "minify-dead-code-elimination",
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-proposal-export-default-from",
+    "@babel/plugin-proposal-export-namespace-from"
+  ]
+}

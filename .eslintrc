@@ -1,0 +1,71 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier", "plugin:import/errors", "plugin:import/warnings"],
+  "plugins": ["compat", "prettier", "react", "import"],
+  "rules": {
+    "import/prefer-default-export": "off",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "react/prop-types": [0],
+    "react/no-danger": [0],
+    "linebreak-style": "off",
+    "react/no-array-index-key": "off",
+    "react/no-unused-prop-types": "off",
+    "jsx-a11y/href-no-hash": "off",
+    "jsx-a11y/anchor-is-valid": [
+      "warn",
+      {
+        "aspects": ["invalidHref"]
+      }
+    ],
+    "jsx-a11y/label-has-for": [
+      2,
+      {
+        "components": ["Label"],
+        "required": {
+          "every": ["nesting", "id"]
+        },
+        "allowChildren": true
+      }
+    ],
+    "react/destructuring-assignment": [
+      "off",
+      {
+        "ignoreClassFields": [true]
+      }
+    ]
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "node": true,
+    "browser": true,
+    "jest": true
+  },
+  "settings": {
+    "compiler": "babel",
+    "import/resolver": {
+      "node": {
+        "paths": ["src", "./src"],
+        "extensions": [".js", ".jsx"]
+      }
+    }
+  },
+  "globals": {
+    "document": true,
+    "localStorage": true,
+    "window": true,
+    "dataLayer": true,
+    "mindbox": true,
+    "yaCounter46180287": true
+  }
+}

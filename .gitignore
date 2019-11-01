@@ -1,0 +1,41 @@
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+### OSX template
+*.DS_Store
+.AppleDouble
+.LSOverride
+.cache
+.nvmrc
+
+# Icon must end with two \r
+.htaccess
+build
+__test__/*/img
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# User-specific stuff:
+.idea
+.vscode/*
+.hg/
+
+#builder
+public
+npm-debug.log
+node_modules/
+bundle/
+build.zip
+public/
+NOTES.md
+yarn-error
+yarn-error.log
