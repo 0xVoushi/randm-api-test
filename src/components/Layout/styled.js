@@ -34,7 +34,7 @@ export const Container = styled.div`
     padding: 0.5rem 1.6rem;
   `};
   ${media.giant`
-    max-width: 123.2rem;
+    max-width: 128rem;
   `};
 `;
 

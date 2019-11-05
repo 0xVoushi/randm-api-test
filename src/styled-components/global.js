@@ -86,6 +86,14 @@ const GlobalStyle = createGlobalStyle`
     width: 100%;
   }
 
+  hr {
+    margin: 0;
+    width: 100%;
+    height: 0.1rem;
+    border: none;
+    background-color: #fff;
+  }
+
   @font-face {
     font-family: ${theme.fonts.family};
     font-style: normal;

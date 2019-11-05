@@ -6,6 +6,7 @@ import { GlobalStyle } from '../../styled-components/global';
 
 import theme from '../../styled-components/theme';
 
+import Header from "../Header";
 import { Wrap, Wrapper, Container, Main } from './styled';
 
 export default ({ children }) => (
@@ -40,6 +41,8 @@ export default ({ children }) => (
           </Helmet>
 
           <GlobalStyle />
+
+          <Header />
 
           <Wrapper>
             <Container>

@@ -14,6 +14,7 @@ module.exports = {
   },
 
   plugins: [
+    `gatsby-plugin-catch-links`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: 'gatsby-plugin-robots-txt',
@@ -32,5 +33,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-styled-components`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
   ],
 };

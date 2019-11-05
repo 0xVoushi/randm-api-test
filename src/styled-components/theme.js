@@ -40,9 +40,7 @@ export default {
     large: '2.2rem',
     largeX: '2.4rem',
     largeXX: '2.8rem',
-    fs3_4: '3.4rem',
     max: '3.6rem',
-    fs4_2: '4.2rem',
   },
 
   colors: {
@@ -54,7 +52,7 @@ export default {
     tabulatorGray: '#ebebeb',
     darkGray: '#d6d6d6',
     lightGray: '#fafafa',
-    bg: '#f8f8f8',
+    bg: '#202225',
     red: '#ff004d',
     blue: '#0060a0',
     lightBlue: '#008fff',
@@ -62,12 +60,6 @@ export default {
     purple: '#914eff',
     textColor: '#262626',
     opacityBorder: '#1f1f1f',
-    fb: '#3b5998',
-    vk: '#4c6c91',
-    inst:
-      'radial-gradient(circle at 30% 110%, #ffdb8b 0%,#ee653d 25%,#d42e81 50%,#a237b6 75%,#3e5fbc 100%)',
-    youtube: '#ff0000',
-    telegram: 'linear-gradient(203.2deg, #37aee2 21.67%, #1e96c8 70%);',
   },
 
   container: {
